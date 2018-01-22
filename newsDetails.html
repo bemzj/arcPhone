@@ -9,7 +9,7 @@
 		<meta content="telephone=no" name="format-detection"/>
 		<link rel="stylesheet" href="css/reset.min.css" />
 		<link rel="stylesheet" href="css/public.css" />
-		<link rel="stylesheet" href="css/news.css" />
+		<link rel="stylesheet" href="css/newsDetails.css" />
 		<script type="text/javascript" src="js/rem.js" ></script>
 		<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 	</head>
@@ -45,51 +45,50 @@
 			</nav>
 		</header>
 		<section id="mainContent">
-			<div class="box news">
-				<div class="newsTitle">
-					<p>LASTED NEWS</p>
-				</div>
-				<div class="newsBox">
-					<!--事件小于等于四件时。设置newsBoxIn的overflow:hidden-->
-					<div class="newsBoxIn">
-						<ul>
-							<li>
-								<a href="###">
-									<p class="floatl">201706&nbsp;&nbsp;</p>
-									<p class="floatl">梦想改造，筑梦60个孩子的「 家 」</p>
-									<div class="clearl"></div>
-								</a>
-							</li>
-							<li>
-								<a href="###">
-									<p class="floatl">201706&nbsp;&nbsp;</p>
-									<p class="floatl">「 疯狂周末 」J&amp;P team building</p>
-									<div class="clearl"></div>
-								</a>
-							</li>
-							<li>
-								<a href="###">
-									<p class="floatl">201706&nbsp;&nbsp;</p>
-									<p class="floatl">J&amp;P受邀出席三门峡黄金港项目启动会</p>
-									<div class="clearl"></div>
-								</a>
-							</li>
-							<li>
-								<a href="###">
-									<p class="floatl">201706&nbsp;&nbsp;</p>
-									<p class="floatl">李峻设计咨询于中国内地正式成立李峻设计咨询于中国内地正式成立</p>
-									<div class="clearl"></div>
-								</a>
-							</li>
-						</ul>
-					</div>
-					
-				</div>
+			<div class="back box">
+				<ul>
+					<li>
+						<img src="img/back.png" />
+					</li>
+					<li>
+						<p>BACK</p>
+					</li>
+				</ul>
+			</div>
+			<div class="content box">
+				<ul>
+					<li>
+						<p class="title">「疯狂周末」J&amp;P team building</p>
+					</li>
+					<li>
+						<p class="time">201705</p>
+					</li>
+					<li>
+						<p>疯狂周末的周庄古镇游</p>
+						<p>点燃了整个夏日！</p>
+						<p>&P 进行一场人与自然与历史的光合作用J&P 进行一场人与自然与历史的光合作用J&P 进行一场人与自然与历史的光合作用J&P 进行一场人与自然与历史的光合作用J&P 进行一场人与自然与历史的光合作用J&P 进行一场人与自然与历史的光合作用</p>
+					</li>
+					<li>
+						<img src="img/news01.jpg" />
+						<img src="img/news02.jpg" />
+						<img src="img/news01.jpg" />
+						<img src="img/news02.jpg" />
+					</li>
+				</ul>
 			</div>
 		</section>
 		<footer>
 	    	<p>Copyright &copy; 2017 J&amp;P ARCHITECTS. All Rights Reserved.</p>
 	    </footer>
+	    <script type="text/javascript" src="js/scrollReveal.js" ></script>
 		<script type="text/javascript" src="js/public.js" ></script>
+		<script>
+			//开启滑动动画
+			if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+					(function(){
+					window.scrollReveal = new scrollReveal({reset: true});
+				})();
+			};
+		</script>
 	</body>
 </html>

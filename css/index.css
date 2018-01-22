@@ -20,31 +20,31 @@ body {
   bottom: 0;
   left: 0; }
   .slideBox .time {
-    font-size: 0.3rem;
-    line-height: 0.6rem;
+    font-size: 0.28rem;
+    line-height: 0.36rem;
     color: black;
     font-family: 'bofr';
     font-weight: bold;
-    margin-bottom: 0.2rem; }
+    margin-bottom: 0.15rem; }
   .slideBox .imgBox {
     width: 100%; }
     .slideBox .imgBox img {
       width: 100%; }
   .slideBox .contectBottom {
-    font-size: 0.26rem;
+    font-size: 0.24rem;
     color: black;
     font-family: 'bofr';
     font-weight: bold;
-    margin-top: 0.4rem; }
+    margin-top: 0.2rem; }
   .slideBox .contectMiddle {
-    font-size: 0.26rem;
+    font-size: 0.24rem;
     color: black;
     font-family: helvetica;
-    margin-top: 0.2rem;
+    margin-top: 0.12rem;
     font-weight: bold; }
   .slideBox .contectTop {
-    font-size: 0.32rem;
-    line-height: 0.5rem;
+    font-size: 0.28rem;
+    line-height: 0.36rem;
     color: black;
     font-family: 'bofr';
     font-weight: bold; }
@@ -52,12 +52,14 @@ body {
 .swiper-container-vertical > .swiper-pagination-bullets {
   left: 4%;
   right: auto;
-  top: 18%; }
+  top: 15%; }
 
 .swiper-pagination-bullet {
   border-radius: 0;
   background: #757575;
-  opacity: 1; }
+  opacity: 1;
+  width: 0.12rem;
+  height: 0.12rem; }
 
 .swiper-pagination-bullet-active {
   background: #e4e4e4; }
