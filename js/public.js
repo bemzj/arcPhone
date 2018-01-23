@@ -11,4 +11,8 @@ $(function(){
 			$(this).removeClass('mn45');
 		}
 	});
+	//
+	$('.back').on('click',function(){
+		window.history.go(-1);
+	});
 });

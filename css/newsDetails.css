@@ -5,7 +5,7 @@ body {
   background-color: white; }
 
 .content {
-  font-size: 0.24rem;
+  font-size: 0.2rem;
   line-height: 0.6rem; }
 
 .title {
@@ -25,5 +25,11 @@ body {
 
 .content img:nth-last-child(1) {
   margin-bottom: 0px; }
+
+footer {
+  background-color: transparent; }
+
+body {
+  overflow-x: hidden; }
 
 /*# sourceMappingURL=newsDetails.css.map */
