@@ -13,54 +13,37 @@ header .navBox {
 #about {
   background: url(../img/profile.jpg) no-repeat top center;
   background-size: 100% auto;
-  padding-top: 0.5rem; }
+  padding-top: 0.65435rem; }
   #about .about {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: black;
     color: white;
-    padding: 0.4rem 0; }
+    padding: 0.4rem 0 0.28rem; }
     #about .about .aboutTitle {
-      width: 92%;
+      width: 95.8%;
       margin: 0 auto;
-      font-size: 0.28rem;
-      font-family: 'ar';
+      font-size: 0.2371rem;
+      font-family: "arial";
       line-height: 0.5rem; }
     #about .about .aboutContent {
-      width: 92%;
+      width: 95.8%;
       margin: 0 auto; }
       #about .about .aboutContent p {
-        line-height: 0.5rem;
-        font-size: 0.2rem;
-        text-indent: 0.48rem;
-        padding: 0.05rem 0; }
+        line-height: 0.3952rem;
+        font-size: 0.165rem;
+        text-indent: 0.3414rem;
+        padding: 0.05rem 0;
+        text-align: justify; }
     #about .about .work {
-      margin: 0.6rem auto 0rem; }
-    #about .about .process > img {
-      width: 100%; }
-    #about .about .process ul li {
-      float: left;
-      width: 23%;
-      transform: scale(0.6, 0.6); }
-      #about .about .process ul li a {
-        width: 2.0rem;
-        height: 2.0rem;
-        border-radius: 50%;
-        border: 1px solid white;
-        margin: 0rem auto 0.2rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        display: -webkit-flex;
-        -webkit-align-items: center;
-        -webkit-justify-content: center;
-        -webkit-flex-direction: column; }
-        #about .about .process ul li a p {
-          font-size: 0.24rem;
-          color: white;
-          text-align: center; }
+      margin: 0.6rem auto 0; }
+      #about .about .work p {
+        line-height: 0.7397rem; }
+    #about .about .process {
+      margin-bottom: 0.15rem; }
+      #about .about .process > img {
+        width: 100%; }
 
 #introduce {
-  margin: 0.6rem auto; }
+  margin: 1.1949rem auto; }
   #introduce img {
     width: 100%; }
 
@@ -68,42 +51,51 @@ footer {
   position: relative; }
 
 #team .tTitle {
-  text-align: center;
-  font-family: "arial narrow";
-  line-height: 0.45rem; }
+  text-align: center !important;
+  font-family: "arial";
+  line-height: 0.45rem;
+  margin: 0.2276rem 0 0.275rem; }
   #team .tTitle p:nth-child(1) {
-    font-size: 0.3rem; }
+    font-size: 0.2371rem;
+    line-height: 0.3888rem; }
   #team .tTitle p:nth-child(2) {
-    font-size: 0.26rem; }
+    font-size: 0.1897rem;
+    line-height: 0.3604rem; }
 #team .teamBox {
-  width: 100%;
-  padding: 0.2rem 0; }
+  width: 100%; }
   #team .teamBox > img {
     width: 12.5%;
     float: left; }
 
 #company {
-  padding: 0.6rem 0 0.4rem; }
+  padding: 2.3519rem 0 0.3414rem; }
   #company .cpLeft {
-    width: 25%;
-    text-align: center;
+    width: 30.5%;
+    text-align: left;
+    margin-left: 7.5%;
     line-height: 0.45rem; }
     #company .cpLeft p {
-      font-size: 0.24rem;
-      font-family: "arial narrow";
-      font-weight: bold; }
+      font-size: 0.2rem;
+      letter-spacing: 0.01rem;
+      font-family: "arial";
+      text-indent: 0.14rem; }
     #company .cpLeft nobr {
-      font-size: 0.24rem;
       color: #606060; }
       #company .cpLeft nobr p {
-        transform: scale(0.66, 0.66);
-        margin-left: -15%;
+        text-indent: 0rem;
+        font-size: 0.1233rem;
         line-height: 0.2rem; }
   #company .cpRight {
-    width: 75%;
-    font-size: 0.2rem; }
+    width: 62%;
+    font-size: 0.1707rem; }
     #company .cpRight p {
-      line-height: 0.45rem;
+      line-height: 0.3952rem;
       color: black; }
+
+footer {
+  background-color: transparent;
+  position: relative; }
+  footer p {
+    padding: 0.51rem 0 0.3414rem; }
 
 /*# sourceMappingURL=profile.css.map */
