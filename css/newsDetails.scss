@@ -1,5 +1,6 @@
 $navtop:0.25rem;
 $navheight:0.4rem;
+$px:0.1707rem;
 body{
     position: relative;
     width: 100%;
@@ -7,16 +8,22 @@ body{
     background-color: white;
 }
 .content{
-    font-size: 0.2rem;
-    line-height: 0.6rem;
+    font-size: $px;
+    line-height: 0.4739rem;
+    
 }
 .title{
-    font-size: 14px;
+    font-size: 0.2371rem;
     font-weight: bold;
+    letter-spacing: 0.0379rem;
+    span{
+        letter-spacing: 0;
+    }
 }
 .time{
     font-weight: bold;
     margin-bottom: 0.5rem;
+    letter-spacing: 0.0379rem;
 }
 .content ul li:nth-child(3){
     margin-bottom: 0.6rem;
