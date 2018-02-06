@@ -4,34 +4,52 @@ body {
   height: 100%;
   background-color: white; }
 
+header {
+  background-color: white; }
+
+header .navBox {
+  background-color: white;
+  z-index: 5;
+  box-shadow: 0px 2px 4px rgba(231, 231, 231, 0.2); }
+
+.newbox {
+  width: 92%; }
+
 .content {
-  font-size: 0.1707rem;
+  font-size: 0.163rem;
   line-height: 0.4739rem; }
 
 .title {
   font-size: 0.2371rem;
-  font-weight: bold;
-  letter-spacing: 0.0379rem; }
-  .title span {
-    letter-spacing: 0; }
+  letter-spacing: 0.0379rem;
+  margin-bottom: 0.12rem;
+  font-family: "arial"; }
+
+.back {
+  margin: 0.15rem auto 1.4rem; }
 
 .time {
   font-weight: bold;
-  margin-bottom: 0.5rem;
-  letter-spacing: 0.0379rem; }
+  font-size: 0.163rem;
+  line-height: 0.163rem;
+  letter-spacing: 0.0379rem;
+  margin-bottom: 0.5216rem; }
 
 .content ul li:nth-child(3) {
-  margin-bottom: 0.6rem; }
+  margin-bottom: 0.5975rem; }
 
 .content img {
   width: 100%;
-  margin-bottom: 0.25rem; }
+  margin-bottom: 0.0759rem; }
 
 .content img:nth-last-child(1) {
   margin-bottom: 0px; }
 
 footer {
-  background-color: transparent; }
+  background-color: transparent;
+  position: relative; }
+  footer p {
+    padding: 0.51rem 0 0.3414rem; }
 
 body {
   overflow-x: hidden; }

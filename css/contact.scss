@@ -1,3 +1,6 @@
+$px10:0.1707rem;
+$title:0.2371rem;
+$hLine:0.4742rem;
 footer{
     position: relative;
 }
@@ -12,12 +15,15 @@ header .navBox{
      padding-bottom: 0.2rem;
      box-shadow:0 2px 4px rgba(231,231,231,0.5);
  }
+ header{
+     position: relative;
+ }
 #main{
     width: 100%;
     .mainTop{
         height: 60%;
         
-        .box{
+        .newbox{
             height: 100%;
             display: flex;
             justify-content: center;
@@ -37,12 +43,18 @@ header .navBox{
             }
             .boxBottom{
                 position: absolute;
-                bottom: 0.2rem;
+                bottom: 0.225rem;
                 left: 0;
                 width: 100%;
+                p{
+                    line-height: $px10;
+                }
+                .address{
+                    margin-bottom: 0.2276rem;
+                }
             }
             a{
-                font-size: 0.2rem;
+                font-size: $px10;
                 font-family: "arial narrow";
                 color: black;
                 line-height: 0.36rem;
@@ -50,11 +62,11 @@ header .navBox{
             img{
                 display: block;
                 margin: 0.8rem auto;
-                width: 80%;
+                width: 74.89%;
                 
             }
             p{
-                font-size: 0.2rem;
+                font-size: $px10;
                 font-family: "arial narrow";
                 line-height: 0.36rem;
             }
@@ -63,7 +75,7 @@ header .navBox{
                 margin-top: 0.1rem;
             }
             .address{
-                font-family: "微软雅黑";
+
             }
         }
     }
@@ -100,17 +112,27 @@ header .navBox{
                 -webkit-align-items: center;
                 -webkit-justify-content: center;
                 -webkit-flex-direction: column;
+                ul{
+                    margin-left: 0.2rem;
+                }
                 ul li{
                     width: 100%;
                 }
                 p{
-                    font-size: 0.2rem;
-                    margin-bottom: 0.15rem;
+                    font-size: $px10;
+                    line-height: $px10;
+                    margin-bottom: 0.33rem;
                 }
                 img{
                     width: 50%;
                 }
             }
         }
+    }
+}
+footer{
+    background-color: transparent;
+    p{
+        padding: 0.51rem 0 0.3414rem;
     }
 }

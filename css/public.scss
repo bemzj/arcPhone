@@ -1,5 +1,8 @@
 $navtop:0.25rem;
 $navheight:0.4rem;
+$px10:0.1707rem;
+$title:0.2371rem;
+$hLine:0.4742rem;
 @font-face {
     font-family: bofr;
     src: url('../fonts/baskerville-old-face-caps-regular.ttf');
@@ -22,79 +25,22 @@ body{
 }
 header{
     width: 100%;
-    height: 0.9rem;
-    background-color: white;
-//  box-shadow: 0px 0px 2px 2px rgba(51,51,51,0.2);
-    position: relative;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
     nav{
-        position: absolute;
-        top: 0;
-        left: 4%;
-        z-index: 2;
+        padding: 0.42rem 0 0.37rem 0;
+        height: 0.2265rem;
+        position: relative;
         .logoImg{
-            position: absolute;
-            left: 0rem;
-            top: 0.3rem;
-            height: 0.3rem;
+            height: 0.2225rem;
         }
         .moreNav{
-            position:absolute;
-            right: 0rem;
-            top: 0.3rem;
-            height: 0.3rem;
-            background:url('../img/navbar.png') no-repeat center center;
-            background-size:100% 100%;
-            transition: background 0.5s;
-            -moz-transition: background 0.5s;
-            -ms-transition: background 0.5s;
-           -webkit-transition: background 0.5s;
-            span{
-                width: 0.4rem;
-                height: 0.06rem;
-                border-radius: 0.12rem;
-                margin-bottom: 0.06rem;
-                display: block;
-                opacity: 0;
-                background-color: #656565;
-                transition: opacity 0.5s,transform 0.5s;
-                -moz-transition: opacity 0.5s,transform 0.5s;
-                -ms-transition: opacity 0.5s,transform 0.5s;
-                -webkit-transition: opacity 0.5s,transform 0.5s;
-            }
-            span:nth-child(3){
-                position: absolute;
-                top: 0.12rem;
-                left: 0;
-            }
-            span:nth-child(4){
-                position: absolute;
-                bottom: 0rem;
-                left: 0;
-                opacity: 0;
-            }
-            span:nth-child(1){
-                opacity: 0;
-            }
-            
-            span:nth-last-child(1){
-                margin-bottom: 0px;
-            }
-        }
-        .mn45{
-            background:none;
-            span:nth-child(1){
-                opacity: 0;
-            }
-            span:nth-child(2){
-                transform: rotate(45deg);
-                opacity: 1;
-            }
-            span:nth-child(3){
-                transform: rotate(-45deg);
-                opacity: 1;
-            }
-            span:nth-child(4){
-                opacity: 0;
+            height: 0.21rem;
+            img{
+                height: 100%;
             }
         }
     }
@@ -106,18 +52,26 @@ header{
         width: 100%;
         z-index: 5;
         ul li{
-            width: 92%;
+
             margin: 0 auto;
         }
         ul li a {
             width: 100%;
             display: block;
-            font-size: 0.28rem;
-            font-family: "arial, helvetica, sans-serif";
+            font-size: 0.21rem;
+            line-height: 0.21rem;
+            margin-bottom: 0.29rem;
+            font-family: "arial";
             color: black;
             text-align: right;
-            line-height: 0.6rem;
-            font-weight: bold;
+            letter-spacing: 1px;
+//          font-weight: 600;
+        }
+        ul li:nth-child(1) a{
+            margin-top: 0.12rem;
+        }
+        ul li:nth-last-child(1) a{
+            margin-top: 0.12rem;
         }
     }
 }
@@ -131,17 +85,26 @@ footer{
     background-color: rgba(255,255,255,0.5);
     p{
         margin-left: 4%;
-        font-size: 0.2rem;
-       line-height: 0.8rem;
+        font-size: 0.1233rem;
+       line-height: 0.1233rem;
+       font-family: arial;
     }
 }
+
 .back{
     margin: 1.0rem auto;
     img{
-        width: 5.87%;
+        width: 0.44rem;
     }
 }
 .content{
     font-size: 0.24rem;
     line-height: 0.5rem;
+}
+.newbox{
+    margin: 0 auto;
+   width: 90.93%;
+}
+.null{
+    height: 1.0165rem;
 }

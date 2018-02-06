@@ -1,3 +1,6 @@
+$px10:0.1707rem;
+$title:0.2371rem;
+$hLine:0.4742rem;
 html,
 body {
     position: relative;
@@ -59,18 +62,35 @@ body {
     }
 }
 .swiper-container-vertical>.swiper-pagination-bullets{
-    left: 4%;
+    left: 4.535%;
     right:auto;
-    top: 15%;
+    top: 17.24%;
 }
 .swiper-pagination-bullet{
     border-radius: 0;
     background: #757575;
     opacity: 1;
-    width: 0.12rem;
-    height: 0.12rem;
-    
+    width: 0.06rem;
+    height: 0.06rem;;
+}
+.swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet
+{
+    margin: 0 0 0.08rem 0;
 }
 .swiper-pagination-bullet-active{
     background: #e4e4e4;
 }
+footer{
+    background-color: transparent;
+    p{
+        padding: 0.51rem 0 0.3414rem;
+    }
+}
+.swiper-container{
+    .newbox{
+        margin-bottom: $px10;
+        img{
+            width: 100%;
+        }
+    }
+} 

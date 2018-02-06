@@ -1,5 +1,6 @@
-$navtop:0.25rem;
-$navheight:0.4rem;
+$px10:0.1707rem;
+$title:0.2371rem;
+$hLine:0.4742rem;
 body{
     position: relative;
     width: 100%;
@@ -10,6 +11,7 @@ header{
     position: fixed;
     z-index: 10;
 }
+
 #mainContent{
     width: 100%;
     height: 100%;
@@ -22,15 +24,17 @@ header{
     -webkit-justify-content: center;
     -webkit-flex-direction: column;
     .news{
+        padding-bottom: 1.32rem;
         .newsTitle{
-            font-family: "arial narrow";
-            font-size: 0.28rem;
+            font-family: "arial";
+            font-size: $title;
             color: black;
             font-weight: bold;
-            line-height: 1.2rem;
+            line-height: $title;
+            margin-bottom: 0.9198rem;
         }
         .newsBox{
-            height: 2.8rem;
+            height: 2.4468rem;
             overflow: hidden;
             .newsBoxIn{
                 width: 100%;
@@ -51,10 +55,11 @@ header{
                 
             }
             ul li a{
-                font-size: 0.24rem;
+                font-size: $px10;
+                letter-spacing: 0.0379rem;
                 color: black;
-                line-height: 0.5rem;
-                padding: 0.1rem 0;
+                line-height: $px10;
+                margin-bottom: 0.588rem;
                 p:nth-child(1){
                    width: 20%;
                 }
@@ -62,6 +67,15 @@ header{
                     width: 70%;
                 }
             }
+            ul li:nth-last-child(1) a{
+                margin-bottom: 0rem;
+            }
         }
+    }
+}
+footer{
+    background-color: transparent;
+    p{
+        padding: 0.51rem 0 0.3414rem;
     }
 }
