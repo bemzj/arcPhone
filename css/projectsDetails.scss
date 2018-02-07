@@ -4,9 +4,11 @@ body {
   overflow-x: hidden;
   height: 100%;
   background-color: white; }
+  header{
+       background-color: white;
+  }
 header .navBox{
      background-color: white;
-     padding-bottom: 0.2rem;
      box-shadow:0 2px 4px rgba(231,231,231,0.5);
  }
  footer{
@@ -27,30 +29,63 @@ header .navBox{
         transform: rotate(180deg);
     }
 }
+.backs{
+    margin-bottom: 0.7397rem;
+}
+$title:0.2371rem;
+ $px10:0.163rem;
 .message{
     table{
-        margin: 0.4rem 0;
+        margin: 0.7585rem 0 1.233rem;
         width: 100%;
-        font-size: 0.2rem;
+        font-size: 0.1327rem;
+        line-height: $title;
+        text-align: left;
+        width: 100%;
+        font-family: arial;
+        tr:nth-child(2){
+            td:nth-child(2){
+                font-family: helvetica;
+            }
+        }
         tr{
             border-bottom: 1px solid #424242;
-            height: 0.45rem;
-            td:nth-child(4n+1){
-                width: 22%;
+            height: 0.295rem;
+            td:nth-child(1){
+                width: 12.3%;
                 p{
                     border-right: 1px solid #424242;
                 }
             }
-            td:nth-child(4n+3){
-                width: 22%;
+            td:nth-child(2){
+                width: 24.6%;
+                p{
+                    text-indent: 0.09rem; 
+                }
+            }
+            td:nth-child(3){
+                width: 10.2%;
                 p{
                     border-right: 1px solid #424242;
                 }
             }
-            td:nth-child(2n){
-                width: 28%;
-                text-indent: 0.2rem;
-                
+            td:nth-child(4){
+                width: 27.53%;
+                p{
+                    text-indent: 0.09rem; 
+                }
+            }
+            td:nth-child(5){
+                width: 7.32%;
+                p{
+                    border-right: 1px solid #424242;
+                }
+            }
+            td:nth-child(6){
+                width: 18.05%;
+                p{
+                    text-indent: 0.09rem; 
+                }
             }
             .noborder{
                 border: 0!important;
@@ -61,21 +96,34 @@ header .navBox{
         }
     }
 }
+$hLine:0.4742rem;
 .messageContent{
     .eTitle{
-        font-size: 0.28rem;
+        font-size: $title;
         color: #252525;
-        font-family: "arial narrow";
-        line-height: 0.45rem;
+        font-family: "arial";
+        line-height: $title;
+        margin-bottom: $px10;
     }
     .cTitle{
-        font-size: 0.28rem;
+        font-size: 0.2068rem;
         color: #252525;
-        line-height: 0.45rem;
+        line-height: 0.2068rem;
+        margin-bottom: 0.569rem;
+        
     }
     .contentBox{
-        padding: 0.2rem 0;
-        font-size: 0.2rem;
-        line-height: 0.45rem;
+        width: 90.8%;
+        font-size: $px10;
+        line-height: $hLine;
+        text-align: justify;
+        letter-spacing: 0.012rem;
+    }
+}
+footer{
+    background-color: transparent;
+    position: relative;
+    p{
+        padding: 0.51rem 0 0.3414rem;
     }
 }

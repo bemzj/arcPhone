@@ -4,17 +4,23 @@ body {
   overflow-x: hidden;
   height: 100%;
   background-color: white; }
+  header{
+      background-color: white;
+      box-shadow:0 2px 4px rgba(231,231,231,0.5);
+  }
 header .navBox{
      background-color: white;
-     padding-bottom: 0.2rem;
      box-shadow:0 2px 4px rgba(231,231,231,0.5);
  }
+ $px10:0.163rem;
+$title:0.2371rem;
+$hLine:0.4742rem;
 #mainImg{
     width: 100%;
     overflow-x: hidden;
     .mainImgBox{
         width: 100%;
-        margin-bottom: 0.05rem;
+        margin-bottom: 0.066rem;
         position: relative;
         a{
             position: absolute;
@@ -33,24 +39,30 @@ header .navBox{
             -webkit-flex-direction: column;
             p{
                 text-align: center;
-                font-size: 0.28rem;
                 color: white;
-                line-height: 0.45rem;
             }
             p:nth-child(1){
-                font-family: 'ar';
+                font-family: "arial";
+                font-size: $title;
+                line-height: $title;
+                letter-spacing: 0.02rem;
             }
             p:nth-child(2){
-                font-size: 0.26rem;
+                font-size: $px10;
+                margin-top: 0.2086rem;
+                line-height: $px10;
+                letter-spacing: 0.02rem;
             }
             span{
-                font-size: 0.2rem;
+                font-size: 0.0948rem;
                 color: white!important;
                 position: absolute;
                 width: 100%;
                 left: 0;
-                bottom: 5%;
+                font-family: arial;
+                bottom: 7.6%;
                 text-align: center;
+                letter-spacing: 0.01rem;
             }
         }
         img{
@@ -62,5 +74,8 @@ header .navBox{
     }
 }
 footer{
-    position: relative;
+    background-color: transparent;
+    p{
+        padding: 0.51rem 0 0.3414rem;
+    }
 }
